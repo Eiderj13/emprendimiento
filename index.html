@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Taller de Ropa BREIMAR | Alta Costura & Confección</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Fuentes Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,600;1,6..96,500&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Iconos FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+  <!-- Encabezado y Navegación -->
+  <header class="header">
+    <div class="nav-container">
+      <a href="#" class="brand-logo">BREIMAR<span>.</span></a>
+      <nav class="navbar">
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#nosotros">Nosotros</a>
+        <a href="#galeria">Colecciones</a>
+        <a href="#contacto" class="btn-nav">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="inicio" class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <span class="hero-tag">Ocaña, Colombia · Hecho con intención</span>
+      <h1>Elegancia, <em>puntada a puntada.</em></h1>
+      <p>Diseño y confección de autor para prendas que se sienten tan únicas como quien las lleva.</p>
+      <div class="hero-btns">
+        <a href="#servicios" class="btn btn-primary">Descubre el taller</a>
+        <a href="https://wa.me/573214500000?text=Hola%20Taller%20BREIMAR,%20quiero%20más%20información" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+          <i class="fab fa-whatsapp"></i> Hablar con un Asesor
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de Servicios -->
+  <section id="servicios" class="services">
+    <div class="section-title">
+      <span class="sub-title-tag">Nuestros Pilares</span>
+      <h2>Excelencia Técnica y Artesanal</h2>
+      <p>Estándares elevados de calidad para cada proyecto textil</p>
+    </div>
+    <div class="services-grid">
+      <div class="service-card">
+        <div class="icon-box"><i class="fas fa-cut"></i></div>
+        <h3>Confección a Medida</h3>
+        <p>Diseños exclusivos adaptados milimétricamente a tu silueta, estilo y ocasión especial.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon-box"><i class="fas fa-sliders-h"></i></div>
+        <h3>Ajustes & Personalización</h3>
+        <p>Modificación, entalle y perfeccionamiento estructural con terminaciones impecables.</p>
+      </div>
+      <div class="service-card">
+        <div class="icon-box"><i class="fas fa-tshirt"></i></div>
+        <h3>Producción de Colecciones</h3>
+        <p>Desarrollo de muestreo y producción en serie para marcas exigentes y de alta gama.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Sobre Nosotros -->
+  <section id="nosotros" class="about">
+    <div class="about-container">
+      <div class="about-text">
+        <span class="sub-title">La Esencia de BREIMAR</span>
+        <h2>Pasión por los Detalles y el Trabajo Bien Hecho</h2>
+        <p>Combinamos la tradición del arte de la sastrería y confección con técnicas modernas de patronaje. Cada pieza pasa por un riguroso proceso de control para garantizar estructura, comodidad y distinción.</p>
+        <ul class="about-list">
+          <li><i class="fas fa-check-circle"></i> Insumos y telas seleccionadas de alta gama.</li>
+          <li><i class="fas fa-check-circle"></i> Asesoría técnica personalizada en cada prenda.</li>
+          <li><i class="fas fa-check-circle"></i> Rigor profesional y compromiso absoluto en entregas.</li>
+        </ul>
+      </div>
+      <div class="about-badge">
+        <h3>100%</h3>
+        <p>Calidad Garantizada</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Colecciones (Acordeones + Tarjetas Giratorias Frente/Espalda sin JS) -->
+  <section id="galeria" class="gallery">
+    <div class="section-title">
+      <span class="sub-title-tag">Galería Interactiva</span>
+      <h2>Nuestras Colecciones</h2>
+      <p>Explora cada colección y toca una prenda para descubrir sus detalles por ambos lados.</p>
+    </div>
+
+    <div class="collections-container">
+      
+      <!-- ==========================================
+           COLECCIÓN 1: CORTE Y PATRONAJE
+           ========================================== -->
+      <div class="collection-accordion">
+        <input type="checkbox" id="coll-1" class="accordion-toggle" checked>
+        <label for="coll-1" class="accordion-header">
+          <div class="header-title-wrapper">
+            <span class="collection-number">01</span>
+            <h3>Corte & Patronaje</h3>
+          </div>
+          <i class="fas fa-chevron-down accordion-icon"></i>
+        </label>
+        <div class="accordion-content">
+          <div class="inner-grid">
+            
+            <!-- Item 1 -->
+            <div class="flip-card">
+              <input type="checkbox" id="flip-1-1" class="flip-toggle">
+              <label for="flip-1-1" class="flip-inner" title="Toca para girar (Ver frente / reverso)">
+                <div class="flip-front">
+                  <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=600&q=80" alt="Trazado frontal">
+                  <div class="card-badge">Frente</div>
+                  <div class="card-caption"><span>Trazado & Medidas</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+                <div class="flip-back">
+                  <img src="https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&w=600&q=80" alt="Trazado reverso">
+                  <div class="card-badge back-badge">Reverso</div>
+                  <div class="card-caption"><span>Detalle Posterior</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+              </label>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="flip-card">
+              <input type="checkbox" id="flip-1-2" class="flip-toggle">
+              <label for="flip-1-2" class="flip-inner" title="Toca para girar">
+                <div class="flip-front">
+                  <img src="https://images.unsplash.com/photo-1528459801416-a9e53bbf4e17?auto=format&fit=crop&w=600&q=80" alt="Modelado frontal">
+                  <div class="card-badge">Frente</div>
+                  <div class="card-caption"><span>Modelado sobre Maniquí</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+                <div class="flip-back">
+                  <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80" alt="Modelado reverso">
+                  <div class="card-badge back-badge">Reverso</div>
+                  <div class="card-caption"><span>Estructura Trasera</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+              </label>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="flip-card">
+              <input type="checkbox" id="flip-1-3" class="flip-toggle">
+              <label for="flip-1-3" class="flip-inner" title="Toca para girar">
+                <div class="flip-front">
+                  <img src="https://images.unsplash.com/photo-1594938298603-c8148c4dae35?auto=format&fit=crop&w=600&q=80" alt="Corte frontal">
+                  <div class="card-badge">Frente</div>
+                  <div class="card-caption"><span>Corte de Alta Precisión</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+                <div class="flip-back">
+                  <img src="https://images.unsplash.com/photo-1558769132-cb1aea458c5e?auto=format&fit=crop&w=600&q=80" alt="Corte reverso">
+                  <div class="card-badge back-badge">Reverso</div>
+                  <div class="card-caption"><span>Simetría de Patrones</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+              </label>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================================
+           COLECCIÓN 2: ACABADOS DE ALTA CALIDAD
+           ========================================== -->
+      <div class="collection-accordion">
+        <input type="checkbox" id="coll-2" class="accordion-toggle">
+        <label for="coll-2" class="accordion-header">
+          <div class="header-title-wrapper">
+            <span class="collection-number">02</span>
+            <h3>Acabados de Alta Calidad</h3>
+          </div>
+          <i class="fas fa-chevron-down accordion-icon"></i>
+        </label>
+        <div class="accordion-content">
+          <div class="inner-grid">
+            
+            <!-- Item 1 -->
+            <div class="flip-card">
+              <input type="checkbox" id="flip-2-1" class="flip-toggle">
+              <label for="flip-2-1" class="flip-inner" title="Toca para girar">
+                <div class="flip-front">
+                  <img src="https://images.unsplash.com/photo-1605289355680-75fb40c75160?auto=format&fit=crop&w=600&q=80" alt="Costura frontal">
+                  <div class="card-badge">Frente</div>
+                  <div class="card-caption"><span>Costura Fina Artesanal</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+                <div class="flip-back">
+                  <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80" alt="Costura reverso">
+                  <div class="card-badge back-badge">Reverso</div>
+                  <div class="card-caption"><span>Terminado Interno</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+              </label>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="flip-card">
+              <input type="checkbox" id="flip-2-2" class="flip-toggle">
+              <label for="flip-2-2" class="flip-inner" title="Toca para girar">
+                <div class="flip-front">
+                  <img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?auto=format&fit=crop&w=600&q=80" alt="Textura frontal">
+                  <div class="card-badge">Frente</div>
+                  <div class="card-caption"><span>Selección de Texturas</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+                <div class="flip-back">
+                  <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80" alt="Textura reverso">
+                  <div class="card-badge back-badge">Reverso</div>
+                  <div class="card-caption"><span>Resistencia y Tacto</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+              </label>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="flip-card">
+              <input type="checkbox" id="flip-2-3" class="flip-toggle">
+              <label for="flip-2-3" class="flip-inner" title="Toca para girar">
+                <div class="flip-front">
+                  <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&fit=crop&w=600&q=80" alt="Control frontal">
+                  <div class="card-badge">Frente</div>
+                  <div class="card-caption"><span>Control de Calidad Final</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+                <div class="flip-back">
+                  <img src="https://images.unsplash.com/photo-1605289355680-75fb40c75160?auto=format&fit=crop&w=600&q=80" alt="Control reverso">
+                  <div class="card-badge back-badge">Reverso</div>
+                  <div class="card-caption"><span>Inspección de Detalles</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+              </label>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- ==========================================
+           COLECCIÓN 3: DISEÑOS EXCLUSIVOS
+           ========================================== -->
+      <div class="collection-accordion">
+        <input type="checkbox" id="coll-3" class="accordion-toggle">
+        <label for="coll-3" class="accordion-header">
+          <div class="header-title-wrapper">
+            <span class="collection-number">03</span>
+            <h3>Diseños Exclusivos</h3>
+          </div>
+          <i class="fas fa-chevron-down accordion-icon"></i>
+        </label>
+        <div class="accordion-content">
+          <div class="inner-grid">
+            
+            <!-- Item 1 -->
+            <div class="flip-card">
+              <input type="checkbox" id="flip-3-1" class="flip-toggle">
+              <label for="flip-3-1" class="flip-inner" title="Toca para girar">
+                <div class="flip-front">
+                  <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=600&q=80" alt="Gala frontal">
+                  <div class="card-badge">Frente</div>
+                  <div class="card-caption"><span>Alta Gala & Etiqueta</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+                <div class="flip-back">
+                  <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80" alt="Gala reverso">
+                  <div class="card-badge back-badge">Reverso</div>
+                  <div class="card-caption"><span>Caída y Silueta Dorsal</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+              </label>
+            </div>
+
+            <!-- Item 2 -->
+            <div class="flip-card">
+              <input type="checkbox" id="flip-3-2" class="flip-toggle">
+              <label for="flip-3-2" class="flip-inner" title="Toca para girar">
+                <div class="flip-front">
+                  <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&fit=crop&w=600&q=80" alt="Vanguardia frontal">
+                  <div class="card-badge">Frente</div>
+                  <div class="card-caption"><span>Colección Vanguardia</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+                <div class="flip-back">
+                  <img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=600&q=80" alt="Vanguardia reverso">
+                  <div class="card-badge back-badge">Reverso</div>
+                  <div class="card-caption"><span>Diseño Posterior</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+              </label>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="flip-card">
+              <input type="checkbox" id="flip-3-3" class="flip-toggle">
+              <label for="flip-3-3" class="flip-inner" title="Toca para girar">
+                <div class="flip-front">
+                  <img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&fit=crop&w=600&q=80" alt="Autor frontal">
+                  <div class="card-badge">Frente</div>
+                  <div class="card-caption"><span>Piezas de Autor</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+                <div class="flip-back">
+                  <img src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&fit=crop&w=600&q=80" alt="Autor reverso">
+                  <div class="card-badge back-badge">Reverso</div>
+                  <div class="card-caption"><span>Acabado Estilizado</span> <i class="fas fa-sync-alt rotate-hint"></i></div>
+                </div>
+              </label>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Pie de Página Profesional -->
+  <footer class="footer" id="contacto">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <h2>BREIMAR<span>.</span></h2>
+        <p>Taller de Ropa & Confección Textil</p>
+        <span class="location-tag"><i class="fas fa-map-marker-alt"></i> Ocaña, Norte de Santander</span>
+      </div>
+
+      <!-- Frase Personal Motivacional -->
+      <div class="footer-quote">
+        <div class="quote-box-inner">
+          <i class="fas fa-quote-left quote-icon"></i>
+          <blockquote>
+            "Cada gran obra empieza con un solo hilo de determinación y pasión. Construimos con esfuerzo y precisión lo que mañana vestirá nuestros mayores sueños."
+          </blockquote>
+          <span class="quote-author">— Taller BREIMAR</span>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <h4>Contacto Directo</h4>
+        <p><i class="fas fa-phone-alt"></i> +57 321 450 0000</p>
+        <a href="https://wa.me/573214500000?text=Hola%20Taller%20BREIMAR,%20me%20gustaría%20cotizar%20un%20trabajo" target="_blank" rel="noopener noreferrer" class="footer-wa-btn">
+          <i class="fab fa-whatsapp"></i> Escríbenos por WhatsApp
+        </a>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 Taller de Ropa BREIMAR. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <!-- Botón Flotante de WhatsApp -->
+  <a href="https://wa.me/573214500000?text=Hola%20Taller%20BREIMAR,%20me%20gustaría%20cotizar%20un%20trabajo" 
+     class="whatsapp-float" 
+    target="_blank"
+    rel="noopener noreferrer"
+     aria-label="Contactar por WhatsApp">
+    <i class="fab fa-whatsapp"></i>
+    <span class="tooltip">¡Escríbenos al instante!</span>
+  </a>
+
+</body>
+</html>
